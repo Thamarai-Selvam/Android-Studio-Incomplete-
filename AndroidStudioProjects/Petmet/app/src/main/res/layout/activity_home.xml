@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg">
+
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        app:floating_background_color="@color/design_default_color_primary"
+        app:floating_left_icon="@drawable/ic_roller"
+        app:floating_title="@string/action_button_title"
+        app:floating_title_color="@android:color/white"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/profileb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/action_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginBottom="35dp"
+        app:floating_background_color="@color/design_default_color_primary"
+        app:floating_left_icon="@drawable/ic_roller"
+        app:floating_title="@string/profilebutton"
+        app:floating_title_color="@android:color/white"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/tmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="46dp"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="24sp"
+        android:text="@string/this_is_your_temporary_homepage"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/ayellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="257dp" />
+</RelativeLayout>

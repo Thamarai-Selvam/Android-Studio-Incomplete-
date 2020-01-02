@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "853561233226",
+    "firebase_url": "https://petmet-a0be9.firebaseio.com",
+    "project_id": "petmet-a0be9",
+    "storage_bucket": "petmet-a0be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853561233226:android:9b0c35e5e5c82f84",
+        "android_client_info": {
+          "package_name": "com.freetime_heros.petmet_test17"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853561233226-00d5o92e693c8e9titqtakp6bphcdenq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0sNZZ3tzaYqTJXf5Ba8tAMgFOCNvPTyM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
